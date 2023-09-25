@@ -31,12 +31,12 @@
         <br /><br /><span style="font-weight:bold;">Chọn hiệu ứng màu:</span><br /><br />
         <select id="input_effect">
 
-            <option value="1">Horizontal Gradient</option>
-            <option value="2">Middle Gradient</option>
-            <option value="3">Three Colored gradient</option>
-            <option value="4">Solid Color</option>
-            <option value="5">Random Colors</option>
-            <option value="6">Gaybow</option>
+            <option value="1">Dải Hai Màu Kiểu 1</option>
+            <option value="2">Dải Hai Màu Kiểu 2</option>
+            <option value="3">Dải Ba Màu</option>
+            <option value="4">Dải Một Màu</option>
+            <option value="5">Màu Ngẫu Nhiên</option>
+            <option value="6">Dải Màu LGBT</option>
         </select>
         <br /><br /><span style="font-weight:bold;">Chọn dải màu:</span><br /><br />
         <div style="position:relative;">
@@ -54,9 +54,9 @@
             </div>
             <div id="color_select4" style="position:absolute; visibility:hidden">Màu: <input type="color" id="input_color8"
                     class='color {hash:true,caps:true}' value='#FF0000'></div>
-            <div id="color_select5" style="position:absolute; visibility:hidden"><input type="button" value="Randomize!"
+            <div id="color_select5" style="position:absolute; visibility:hidden"><input type="button" value="RANDOM"
                     onClick="randomize_colors()"
-                    style='font-family:"Comic Sans MS";font-family:"Comic Sans MS";'><br />Word-by-word:<input type="checkbox"
+                    style='font-weight:bold;'><br />Tách Từng Chữ:<input type="checkbox"
                     id="input_colorword" /></div>
             <div id="color_select6" style="position:absolute; visibility:hidden">Cầu Vồng</div>
         </div>
@@ -109,13 +109,13 @@
         <br /><br />
         <span style="font-weight:bold;">Xem trước văn bản và code:</span><br /><br />
         <div id="div_preview"></div><br /><br />
-        <p style="font-weight:bold;margin-bottom: 1px;">Unity Rich Text:</p> (Dùng trong Unity Games) - (Ai dùng cho tool Genshin dùng loại này)<br />
+        <p style="font-weight:bold;margin-bottom: 1px;">Unity Rich Text:</p> (Dùng Trong Unity Games) - (Ai dùng cho tool Genshin dùng loại này)<br />
         <textarea id="output_richtext" rows="5" cols="80" readonly="true"></textarea><br /><br />
 
-        HTML Code For This Text: (To Use On Your Website)<br />
+        HTML Code For This Text: (Dùng Trong Code Website)<br />
         <textarea id="output_html" rows="5" cols="80" readonly="true"></textarea><br /><br />
 
-        BBCode For This Text: (To Use On Forums)
+        BBCode For This Text: (Dùng Trong Forums)
         <textarea id="output_bbcode" rows="5" cols="80" readonly="true"></textarea>
 
         <script type="text/javascript">textcolorizer_handle();</script><br /><br /><br /><br />
