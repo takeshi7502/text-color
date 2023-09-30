@@ -14,7 +14,7 @@ html {
     height: 777px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
-    border-radius: 15px;
+    border-radius: 1px;
     top: 50px;
     border: 2px solid black;
     background-color: #ccc;
@@ -71,6 +71,10 @@ a:hover {
     width: 100%;
     overflow: auto;
     overflow-x: hidden;
+}
+
+.overflow-auto::-webkit-scrollbar {
+    width: 0;
 }
 
 .bg {
